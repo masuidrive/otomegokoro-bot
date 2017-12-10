@@ -1,0 +1,6 @@
+bot:
+  build: .
+  command:
+    [ "ruby", "console.rb" ]
+  stdin_open: true
+  tty: true
