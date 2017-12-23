@@ -2,6 +2,7 @@
 # コンソールからBotとだけ会話するプログラム
 # デバッグ用途
 require './class/analyze_text'
+require 'uri'
 
 uri = URI.parse('localhost:4567')
 $redis = Redis.new(:host => uri.host, :port => uri.port, :password => uri.password)

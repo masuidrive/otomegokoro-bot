@@ -6,6 +6,7 @@ require './class/pattern.rb'
 class AnalyzeText
   # 会話パターン一覧
   Patterns = [
+    
     ExplainPattern.new(
       /お互い大人なんだし/, "お前冷静にな", 0
     ),
